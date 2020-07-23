@@ -1,0 +1,3 @@
+include ':Viewer'
+include ':app'
+rootProject.name = "ViewerSample"

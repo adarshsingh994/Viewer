@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.viewer">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application>
+        <activity android:name=".ListActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ListTheme"/>
+        <activity
+            android:name=".ViewerActivity"
+            android:theme="@style/ViewerTheme" />
+    </application>
+
+</manifest>
