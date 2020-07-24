@@ -27,10 +27,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val items = getItems()
-        if(items.isNotEmpty())
-            startViewer(items)
-//        startList()
+//        val items = getItems()
+//        if(items.isNotEmpty())
+//            startViewer(items)
+        startList()
     }
 
     private fun startList(){
