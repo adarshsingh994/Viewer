@@ -6,7 +6,7 @@ import com.viewer.ListActivity
 import com.viewer.ViewerActivity
 import com.viewer.model.Item
 
-class Viewer(private val activity : Activity) {
+class Viewer (private val activity : Activity) {
     companion object{
         const val VIEWER_REQUEST_CODE = 9874
         const val KEY_VIEWER_SELECTED_LIST = "viewer_list_fkajn"
